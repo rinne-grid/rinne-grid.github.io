@@ -209,7 +209,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var HatenaBookmarkService = /** @class */ (function () {
     function HatenaBookmarkService(http) {
         this.http = http;
-        this.apiEndPoint = "http://b.hatena.ne.jp/entry/json/";
+        this.apiEndPoint = "https://b.hatena.ne.jp/entry/json/";
     }
     HatenaBookmarkService.prototype.getBookmarks = function (targetUrl) {
         console.log(targetUrl);
